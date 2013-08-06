@@ -53,7 +53,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>processed_p</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/home/makina/Documents/MapBox/project/osm-desaturate/layers/processed_p/coastline-good.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[data/coastlines-split-3857/coastlines-split-3857/lines.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -62,7 +62,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     
     <Datasource>
-       <Parameter name="file"><![CDATA[/home/makina/Documents/MapBox/project/osm-desaturate/layers/shoreline_300/shoreline_300.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[data/shoreline_300/shoreline_300.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -77,7 +77,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>countries</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/home/makina/Documents/MapBox/project/osm-desaturate/layers/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[data/10m-admin-0-countries/10m-admin-0-countries.shp]]></Parameter>
        <Parameter name="id"><![CDATA[countries]]></Parameter>
        <Parameter name="project"><![CDATA[OSMLight]]></Parameter>
        <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
@@ -43259,7 +43259,7 @@
     <Datasource>
        <Parameter name="dbname"><![CDATA[gis]]></Parameter>
        <Parameter name="extent"><![CDATA[-20037508.34,-20037508.34,20037508.34,20037508.34]]></Parameter>
-       <Parameter name="file"><![CDATA[/home/makina/Documents/MapBox/project/osm-desaturate/layers/ne_places/14bd1506-10m-populated-places-simple.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[data/10m-populated-places-simple/10m-populated-places-simple.shp]]></Parameter>
        <Parameter name="host"><![CDATA[localhost]]></Parameter>
        <Parameter name="password"><![CDATA[corpus]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>

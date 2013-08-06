@@ -24,7 +24,7 @@
   "Layer": [
     {
       "Datasource": {
-        "file": "/home/makina/Documents/MapBox/project/osm-light/coastline-good.zip"
+        "file": "data/coastlines-split-3857.zip"
       },
       "class": "shp",
       "geometry": "polygon",
@@ -35,7 +35,7 @@
     },
     {
       "Datasource": {
-        "file": "/home/makina/Documents/MapBox/project/osm-light/shoreline_300.zip"
+        "file": "data/shoreline_300.tar.bz2"
       },
       "class": "shp",
       "geometry": "polygon",
