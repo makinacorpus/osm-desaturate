@@ -50,7 +50,7 @@ index_shapes() {
     shapeindex --shape_files $FILES >/dev/null 2>&1
 }
 
-download "http://data.openstreetmapdata.com/coastlines-split-3857.zip"
+download "http://tilemill-data.s3.amazonaws.com/osm/coastline-good.zip"
 download "http://tile.openstreetmap.org/shoreline_300.tar.bz2"
 download "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip"
 download "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
