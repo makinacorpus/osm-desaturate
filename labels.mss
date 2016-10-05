@@ -15,7 +15,7 @@
 /* PLACE NAMES
 /* ================================================================== */
 
-#place::country[type='country'][zoom>3][zoom<9] {
+#place::country[type='country'][zoom>0][zoom<9] {
   text-name:'[name]';
   text-face-name:@sans_bold;
   text-placement:point;

@@ -16,6 +16,10 @@
   polygon-gamma: 0.8;
 } 
 
+#countries[zoom>=0][zoom<10] {
+  line-color: darken(@land,25%);
+} 
+
 #landuse_gen0[zoom>3][zoom<=9],
 #landuse_gen1[zoom>9][zoom<=12],
 #landuse[zoom>12] {
@@ -160,14 +164,16 @@ Map { background-color: @water; }
 /* ADMINISTRATIVE BOUNDARIES
 /* ================================================================== */
 
-
-#admin[admin_level=2][zoom>1] {
-  line-color:@admin_2;
-  line-width:0.5;
-  [zoom=2] { line-opacity: 0.25; }
-  [zoom=3] { line-opacity: 0.3; }
-  [zoom=4] { line-opacity: 0.4; }
+#admin[admin_level='2'][zoom>=10] {
+  line-color: darken(@land,25%);
+  line-width:2;
 }
+
+#admin[admin_level='4'][zoom>=10] {
+  line-color: darken(@land,25%);
+  line-width:1;
+}
+
 
 /* ================================================================== */
 /* BARRIER POINTS
