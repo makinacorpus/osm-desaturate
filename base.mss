@@ -25,14 +25,17 @@
 #landuse[zoom>12] {
   [type='cemetery']      { polygon-fill: @cemetery; }
   [type='college']       { polygon-fill: @school; }
-  [type='commercial']    { polygon-fill: @industrial; }
+  [type='commercial']    { polygon-fill: @commercial; }
   [type='common']        { polygon-fill: @park; }
+  [type='farm']          { polygon-fill: @agriculture; }
   [type='farmland']      { polygon-fill: @agriculture; }
   [type='forest']        { polygon-fill: @wooded; }
   [type='golf_course']   { polygon-fill: @sports; }
   [type='grass']         { polygon-fill: @grass; }
   [type='hospital']      { polygon-fill: @hospital; }
   [type='industrial']    { polygon-fill: @industrial; }
+  [type='meadow']        { polygon-fill: @grass; }
+  [type='orchard']       { polygon-fill: @park; }
   [type='park']          { polygon-fill: @park; }
   [type='parking']       { polygon-fill: @parking; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
@@ -42,6 +45,7 @@
   [type='sports_center'] { polygon-fill: @sports; }
   [type='stadium']       { polygon-fill: @sports; }
   [type='university']    { polygon-fill: @school; }
+  [type='vineyard']      { polygon-fill: @park; }
   [type='wood']          { polygon-fill: @wooded; }
 }
 
