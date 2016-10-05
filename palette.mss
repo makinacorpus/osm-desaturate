@@ -26,7 +26,7 @@ Map { font-directory: url(./fonts); }
 @sans:              "Open Sans Semibold","DejaVu Sans Book","unifont Medium";
 @sans_italic:       "Open Sans Semibold Italic","DejaVu Sans Italic","unifont Medium";
 @sans_bold:         "Open Sans Bold","DejaVu Sans Bold","unifont Medium";
-@sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium";
+@sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans","unifont Medium";
 
 /* Some fonts are larger or smaller than others. Use this variable to
    globally increase or decrease the font sizes. */
@@ -44,7 +44,7 @@ Map { font-directory: url(./fonts); }
 @park:              desaturate(#cfde9e,40%);
 @cemetery:          desaturate(#D6DED2,40%);
 @wooded:            desaturate(#a0cc5c,40%);
-@agriculture:       desaturate(#F2E8B6,40%);
+@agriculture:       desaturate(#F2E8B6,50%);
 
 @building:          desaturate(#d3c5b6,40%);
 @hospital:          desaturate(#eedddb,40%);

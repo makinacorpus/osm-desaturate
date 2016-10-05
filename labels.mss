@@ -39,7 +39,7 @@
     text-line-spacing: 1;
   }
   [zoom=6] {
-    text-size:12 + @text_adjust;
+    text-size:14 + @text_adjust;
     text-character-spacing: 1;
     text-wrap-width: 80;
     text-line-spacing: 2;
@@ -52,7 +52,7 @@
 
 #place::state[type='state'][zoom>=5][zoom<=10] {
   text-name:'[name]';
-  text-face-name:@sans_bold_italic;
+  text-face-name:@sans_bold;
   text-placement:point;
   text-fill:@state_text;
   text-halo-fill: @state_halo;
@@ -351,7 +351,7 @@
 #waterway_label[type='canal'][zoom>=15],
 #waterway_label[type='stream'][zoom>=17] {
   text-name: '[name]';
-  text-face-name: @sans_italic;
+  text-face-name: @sans_lt;
   text-fill: #fff;
   text-halo-fill: darken(@water,10%);
   text-halo-radius: 1;
@@ -372,7 +372,7 @@
   [type='canal'][zoom=18] {
     text-size: 14;
     text-name: "[name].replace('([\S\ ])','$1 ')";
-    text-spacing: 300;
+    text-spacing: 200;
   }
 }
 
